@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prasanth M — Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">PM<span class="accent">.</span></span>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certs</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#education">Education</a>
+      <a href="#certifications">Certs</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-label">
+        <span class="dot"></span>
+        <span>Software Engineering Student · VIT Vellore</span>
+      </div>
+      <h1 class="hero-name">Prasanth M</h1>
+      <div class="hero-terminal">
+        <span class="prompt">$&nbsp;</span><span id="typewriter"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-sub">
+        Building AI-driven applications & data solutions — from deep learning anomaly detection to voice-powered medical agents.
+      </p>
+      <div class="hero-actions">
+        <a href="#projects" class="btn-primary">View Projects</a>
+        <a href="#contact" class="btn-ghost">Get in Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat"><span class="stat-val">9.15</span><span class="stat-label">CGPA</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-val">3+</span><span class="stat-label">AI Projects</span></div>
+        <div class="stat-div"></div>
+        <div class="stat"><span class="stat-val">4</span><span class="stat-label">Microsoft Certs</span></div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="container">
+      <div class="section-eyebrow">About</div>
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>Analytical by nature,<br /><span class="accent">AI-driven</span> by passion.</h2>
+          <p>
+            I'm a Software Engineering student at VIT Vellore with a CGPA of 9.15, specialising in machine learning, deep learning, and intelligent automation. I love turning raw data into meaningful systems — whether that's classifying plant diseases or detecting anomalies in cybersecurity logs.
+          </p>
+          <p>
+            When I'm not coding, I'm exploring LLM capabilities, building voice agents, and sharpening my skills through Microsoft's Elevate program.
+          </p>
+          <div class="about-links">
+            <a href="https://linkedin.com" target="_blank" class="link-pill">LinkedIn ↗</a>
+            <a href="https://github.com" target="_blank" class="link-pill">GitHub ↗</a>
+          </div>
+        </div>
+        <div class="about-card-stack">
+          <div class="info-card">
+            <div class="info-card-icon">🎓</div>
+            <div>
+              <div class="info-card-title">M.Tech (Integrated)</div>
+              <div class="info-card-sub">Software Engineering · 2022–2027</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">📍</div>
+            <div>
+              <div class="info-card-title">Vellore, Tamil Nadu</div>
+              <div class="info-card-sub">Open to remote opportunities</div>
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="info-card-icon">🤖</div>
+            <div>
+              <div class="info-card-title">Focus Areas</div>
+              <div class="info-card-sub">AI · ML · Deep Learning · Automation</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="container">
+      <div class="section-eyebrow">Work</div>
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured">
+          <div class="project-tag">Deep Learning · Cybersecurity</div>
+          <h3>Anomaly Detection in Cybersecurity Logs</h3>
+          <p>
+            Designed LSTM and GRU deep learning architectures to detect abnormal patterns in large-scale system log data. Evaluated using ROC-AUC, Precision, Recall, and F1-score to maximize detection reliability.
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>LSTM</span><span>GRU</span><span>TensorFlow</span>
+          </div>
+          <a href="https://github.com" target="_blank" class="project-link">View on GitHub ↗</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">Computer Vision · AI</div>
+          <h3>Turmeric Plant Leaf Disease Classification</h3>
+          <p>
+            AI-based image classification system using deep learning to distinguish healthy vs diseased turmeric leaves. Improved accuracy through data augmentation and thorough metric reporting.
+          </p>
+          <div class="project-stack">
+            <span>Python</span><span>TensorFlow</span><span>OpenCV</span>
+          </div>
+          <a href="https://github.com" target="_blank" class="project-link">View on GitHub ↗</a>
+        </div>
+
+        <div class="project-card">
+          <div class="project-tag">LLM · Voice AI</div>
+          <h3>AI Powered Medical Voice Agent</h3>
+          <p>
+            Voice assistant enabling automated doctor–patient interaction using LLMs and speech APIs. Features real-time conversation handling, session tracking, and intelligent response generation.
+          </p>
+          <div class="project-stack">
+            <span>Node.js</span><span>Vapi AI</span><span>LLMs</span>
+          </div>
+          <a href="https://github.com" target="_blank" class="project-link">View on GitHub ↗</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="container">
+      <div class="section-eyebrow">Capabilities</div>
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-layout">
+        <div class="skill-group">
+          <div class="skill-group-label">Languages</div>
+          <div class="skill-chips">
+            <span>Java</span><span>Python</span><span>C</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">AI / ML</div>
+          <div class="skill-chips">
+            <span>TensorFlow</span><span>LSTM</span><span>GRU</span><span>OpenCV</span><span>LLMs</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Tools & Platforms</div>
+          <div class="skill-chips">
+            <span>GitHub</span><span>MySQL</span><span>Power BI</span><span>Azure</span><span>Copilot</span><span>VS Code</span><span>IntelliJ</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Coursework</div>
+          <div class="skill-chips">
+            <span>Software Engineering</span><span>Operating Systems</span><span>DSA</span><span>DBMS</span><span>Artificial Intelligence</span>
+          </div>
+        </div>
+        <div class="skill-group">
+          <div class="skill-group-label">Soft Skills</div>
+          <div class="skill-chips">
+            <span>Analytical Thinking</span><span>Problem Solving</span><span>Technical Documentation</span><span>Incident Planning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education">
+    <div class="container">
+      <div class="section-eyebrow">Education</div>
+      <h2 class="section-title">Academic Background</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-period">2022 – 2027</div>
+            <h3>M.Tech (Integrated) — Software Engineering</h3>
+            <div class="timeline-place">Vellore Institute of Technology, Vellore</div>
+            <div class="timeline-grade">CGPA: <strong>9.15</strong></div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-period">2021 – 2022</div>
+            <h3>Class XII — CBSE</h3>
+            <div class="timeline-place">Spring Days CBSE School, Vellore</div>
+            <div class="timeline-grade">Percentage: <strong>86.8%</strong></div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-period">2019 – 2020</div>
+            <h3>Class X — CBSE</h3>
+            <div class="timeline-place">Spring Days CBSE School, Vellore</div>
+            <div class="timeline-grade">Percentage: <strong>92.8%</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications">
+    <div class="container">
+      <div class="section-eyebrow">Credentials</div>
+      <h2 class="section-title">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card">
+          <div class="cert-logo">⊞</div>
+          <div class="cert-body">
+            <div class="cert-issuer">Microsoft Elevate · AICTE</div>
+            <div class="cert-name">Microsoft Power BI Internship</div>
+            <div class="cert-duration">4 Weeks</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-logo">⊞</div>
+          <div class="cert-body">
+            <div class="cert-issuer">Microsoft Elevate · AICTE</div>
+            <div class="cert-name">Microsoft Copilot Internship</div>
+            <div class="cert-duration">4 Weeks</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-logo">⊞</div>
+          <div class="cert-body">
+            <div class="cert-issuer">Microsoft Elevate · AICTE</div>
+            <div class="cert-name">Microsoft Azure Internship</div>
+            <div class="cert-duration">4 Weeks</div>
+          </div>
+        </div>
+        <div class="cert-card">
+          <div class="cert-logo">🎓</div>
+          <div class="cert-body">
+            <div class="cert-issuer">AICTE · VOIS Tech University</div>
+            <div class="cert-name">Conversational Data Analysis with LLMs</div>
+            <div class="cert-duration">Program Certificate</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="container">
+      <div class="contact-box">
+        <div class="section-eyebrow" style="text-align:center;">Contact</div>
+        <h2 class="section-title" style="text-align:center;">Let's build something<br /><span class="accent">together.</span></h2>
+        <p class="contact-sub">I'm open to internships, research collaborations, and interesting AI/ML projects.</p>
+        <div class="contact-links">
+          <a href="mailto:prasanthtech1905@gmail.com" class="btn-primary">
+            ✉ prasanthtech1905@gmail.com
+          </a>
+          <a href="tel:8754688228" class="btn-ghost">📞 8754688228</a>
+        </div>
+        <div class="contact-social">
+          <a href="https://linkedin.com" target="_blank">LinkedIn ↗</a>
+          <a href="https://github.com" target="_blank">GitHub ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <span>© 2025 Prasanth M</span>
+      <span>Built with HTML · CSS · JS</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
